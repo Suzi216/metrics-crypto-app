@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Travelers Hub
+# Covid Metrics
 
 
 
@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Clone the repository by running the following command in your terminal:
-    git clone 
+    git clone
 
 - Change your directory by by running the following command in your terminal:
     cd space-hub
