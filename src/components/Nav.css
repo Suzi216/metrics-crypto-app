@@ -9,14 +9,6 @@ body {
   align-content: center;
 }
 
-.image {
-  width: 10%;
-  height: 45%;
-}
-
-.logo-header {
-  display: flex;
-}
 
 .title {
   padding-left: 5%;
@@ -42,12 +34,4 @@ ul li a {
   text-decoration: none;
   padding: 10px 20px;
   font-weight: bold;
-}
-
-.active {
-  text-decoration: underline;
-}
-
-.active a {
-  text-decoration: underline;
 }
