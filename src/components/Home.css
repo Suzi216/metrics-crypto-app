@@ -1,19 +1,23 @@
-body{
+body {
   background-color: rgba(255, 0, 0, 0.6);
 }
-table{
+
+table {
   border: 1px solid #989898;
 }
-.header{
+
+.header {
   font-family: Arial, sans-serif;
   color: white;
   text-align: center;
 }
-.coin-container{
+
+.coin-container {
   display: flex;
   flex-wrap: wrap;
 }
-.coin-container tr{
+
+.coin-container tr {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -26,17 +30,20 @@ table{
   border: 2px black;
 }
 
-.coin-container > tr{
+.coin-container > tr {
   flex: 50%;
 }
-td{
+
+td {
   color: white;
   font-family: Ariel, sans-serif;
   padding-right: 6px;
 }
-.price{
+
+.price {
   font-size: 0.8rem;
 }
+
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
