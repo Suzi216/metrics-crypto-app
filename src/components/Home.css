@@ -53,6 +53,6 @@ td {
 }
 
 .right {
-  transform: rotate(-45deg);
+  transform: rotate(-35deg);
   -webkit-transform: rotate(-45deg);
 }

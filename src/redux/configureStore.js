@@ -4,7 +4,7 @@ import CoinReducer from './home/home';
 // import rocketsReducer from './rockets/Rockets';
 
 const mainReducer = combineReducers({
-  mission: CoinReducer,
+  covid: CoinReducer,
 });
 const store = configureStore({
   reducer: mainReducer,

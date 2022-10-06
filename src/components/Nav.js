@@ -5,12 +5,12 @@ import './Nav.css';
 const Nav = () => (
   <>
     <div className="navig-container">
-      <ul>
+      <ul className="home-link">
         <li>
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/detail">Details</Link>
+          <Link to="/detail"> </Link>
         </li>
       </ul>
     </div>
