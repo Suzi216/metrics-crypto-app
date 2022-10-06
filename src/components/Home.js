@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { displayCoin } from '../redux/home/home';
+import { Link } from 'react-router-dom';
+import { displayCoin, showdetail } from '../redux/home/home';
 import './Home.css';
 
 const Coin = () => {
@@ -12,6 +13,11 @@ const Coin = () => {
     if (!allcoin.length) dispatch(displayCoin());
   }, []);
   console.log(allcoin);
+
+  const clickHandler = (id) => {
+    dispatch(showdetail(id));
+  };
+console.log(allcoin);
   return (
     <div className="table-container">
       <div><h1 className="header">Crypto Metrics</h1></div>
@@ -20,9 +26,9 @@ const Coin = () => {
           {allcoin.map((coin) => (
             <tr className={coin.baseId} key={uuidv4()}>
               <td>
-                <p>
-                  <i className="arrow right" />
-                </p>
+                <Link to={`/detail/:${coin.baseSymbol}`}>
+                  <button type="button" onClick={clickHandler(coin.baseSymbol)}><i className="arrow right" /></button>
+                </Link>
               </td>
               <td>
                 {coin.baseSymbol}
