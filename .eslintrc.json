@@ -20,6 +20,7 @@
     "import/no-unresolved": "off",
     "linebreak-style": "off",
     "max-len": ["error", { "code": 300 }],
+    "react/prop-types": "off",
     "no-shadow": "off"
   },
   "ignorePatterns": [

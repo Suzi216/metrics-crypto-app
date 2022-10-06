@@ -10,6 +10,7 @@ const Coinsdisplay = (props) => {
   } = props;
   const allcoin = useSelector((state) => state.covid);
   const dispatch = useDispatch();
+
   const clickHandler = () => {
     dispatch(showdetail(baseSymbol));
   };

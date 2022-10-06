@@ -7,10 +7,7 @@ const Nav = () => (
     <div className="navig-container">
       <ul className="home-link">
         <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/detail"> </Link>
+          <Link to="/"> </Link>
         </li>
       </ul>
     </div>

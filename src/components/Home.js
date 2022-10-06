@@ -2,13 +2,13 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import Coinsdisplay from './coins';
-
 import { displayCoin } from '../redux/home/home';
 import './Home.css';
 
 const Coin = () => {
   const allcoin = useSelector((state) => state.covid);
   const dispatch = useDispatch();
+
   useEffect(() => {
     dispatch(displayCoin());
   }, []);
