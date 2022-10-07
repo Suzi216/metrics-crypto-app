@@ -1,0 +1,50 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: auto;
+  border: none;
+  justify-content: center;
+
+  /* align-items: center; */
+
+  /* align-content: center; */
+}
+
+.arrows {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.arrow-container {
+  padding-left: 7px;
+}
+
+.container-coins {
+  /* margin-left: 4rem; */
+  border: none;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding-top: 3rem;
+}
+
+.row td {
+  padding: 5px;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.row td:nth-child(odd) {
+  background-color: #c8c8c8;
+}

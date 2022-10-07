@@ -34,3 +34,7 @@ ul li a {
   padding: 10px 20px;
   font-weight: bold;
 }
+
+.home-link {
+  padding: 0;
+}
