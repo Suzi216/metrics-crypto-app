@@ -13,7 +13,6 @@ const Coin = () => {
     dispatch(displayCoin());
   }, []);
 
-  // console.log(allcoin);
   return (
     <div className="table-container">
       <div><h1 className="header">Crypto Metrics</h1></div>

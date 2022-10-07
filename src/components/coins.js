@@ -14,7 +14,7 @@ const Coinsdisplay = (props) => {
   const clickHandler = () => {
     dispatch(showdetail(baseSymbol));
   };
-
+  // eslint-disable-next-line
   console.log(allcoin);
 
   return (

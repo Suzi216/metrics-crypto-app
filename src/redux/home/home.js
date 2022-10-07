@@ -37,6 +37,7 @@ const CoinReducer = (state = initialState, { type, payload }) => {
       return payload;
     case DISPLAY_DETAIL:
       // const index = filterByID(state, payload);
+      // eslint-disable-next-line
       console.log(filterByID(state, payload));
       return [...state, { ...state[filterByID(state, payload)], show: !state[filterByID(state, payload)].show }];
       // return state.filter((crypto) => crypto.baseSymbol === payload);
