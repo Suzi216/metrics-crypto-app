@@ -14,6 +14,7 @@ const Detail = () => {
       <div><h1 className="header">Crypto Metrics</h1></div>
       <table>
         <div className="container-coins">
+
           {oneCoin.map((coin) => (
             <tr key={coin.baseSymbol} className="row">
               <td>
@@ -23,21 +24,32 @@ const Detail = () => {
               </td>
               <td>
                 Base id:
+                {' '}
                 {coin.baseId}
               </td>
               <td className="price">
-                Price usd:
+                Price:
+                {' '}
                 {coin.priceUsd}
               </td>
               <td>
-                Market price:
+                Market name:
+                {' '}
                 {coin.exchangeId}
               </td>
               <td>
+                MarketPrice:
                 {coin.priceUsd}
               </td>
               <td>
+                Abbrevation:
+                {' '}
                 {coin.quoteSymbol}
+              </td>
+              <td>
+                Rank:
+                {' '}
+                {coin.rank}
               </td>
 
             </tr>

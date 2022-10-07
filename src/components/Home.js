@@ -11,9 +11,9 @@ const Coin = () => {
 
   useEffect(() => {
     dispatch(displayCoin());
+    // eslint-disable-next-line
   }, []);
 
-  // console.log(allcoin);
   return (
     <div className="table-container">
       <div><h1 className="header">Crypto Metrics</h1></div>

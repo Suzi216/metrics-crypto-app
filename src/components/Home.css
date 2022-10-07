@@ -1,13 +1,14 @@
 body {
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: #d45586;
 }
 
 table {
+  padding: 0;
   border: 1px solid #989898;
 }
 
 .header {
-  font-family: Arial, sans-serif;
+  font-family: monospace, sans-serif;
   color: white;
   text-align: center;
 }
@@ -21,10 +22,10 @@ table {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 8rem;
+  height: 8.5rem;
   align-items: flex-end;
   justify-content: flex-end;
-  background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.2)), url('images/download.jpg');
+  background-image: linear-gradient(0deg, rgba(208, 67, 121), rgba(255, 0, 0, 0.6)), url('images/download.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px black;
@@ -36,8 +37,9 @@ table {
 
 td {
   color: white;
-  font-family: Ariel, sans-serif;
+  font-family: monospace, sans-serif;
   padding-right: 6px;
+  font-size: 1.2rem;
 }
 
 .price {

@@ -21,8 +21,6 @@ body {
   text-decoration: none;
 }
 
-/* for noneactiv router */
-
 ul {
   list-style: none;
   display: flex;
@@ -37,4 +35,9 @@ ul li a {
 
 .home-link {
   padding: 0;
+}
+
+.speaker {
+  width: 30px;
+  height: 30px;
 }
