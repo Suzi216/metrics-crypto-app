@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Nav.css';
-// import speaker from './images/planet.jpg';
 
 const Nav = () => (
   <>

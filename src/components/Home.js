@@ -11,6 +11,7 @@ const Coin = () => {
 
   useEffect(() => {
     dispatch(displayCoin());
+    // eslint-disable-next-line
   }, []);
 
   return (

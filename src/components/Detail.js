@@ -38,14 +38,18 @@ const Detail = () => {
                 {coin.exchangeId}
               </td>
               <td>
-                Market price:
-                {' '}
+                MarketPrice:
                 {coin.priceUsd}
               </td>
               <td>
                 Abbrevation:
                 {' '}
                 {coin.quoteSymbol}
+              </td>
+              <td>
+                Rank:
+                {' '}
+                {coin.rank}
               </td>
 
             </tr>

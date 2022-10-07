@@ -1,14 +1,10 @@
 .row {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 0.2rem;
   margin: auto;
   border: none;
   justify-content: center;
-
-  /* align-items: center; */
-
-  /* align-content: center; */
 }
 
 .arrows {
@@ -28,7 +24,6 @@
 }
 
 .container-coins {
-  /* margin-left: 4rem; */
   border: none;
 }
 
@@ -40,8 +35,8 @@ table {
 }
 
 .row td {
-  padding: 5px;
-  font-size: 25px;
+  padding: 15px;
+  font-size: 20px;
   font-family: monospace, sans-serif;
 }
 
