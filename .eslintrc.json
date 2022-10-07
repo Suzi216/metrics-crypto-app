@@ -21,6 +21,7 @@
     "linebreak-style": "off",
     "max-len": ["error", { "code": 300 }],
     "react/prop-types": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
     "no-shadow": "off"
   },
   "ignorePatterns": [

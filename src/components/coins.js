@@ -22,7 +22,10 @@ const Coinsdisplay = (props) => {
       <tr className={baseId}>
         <td>
           <Link to={`/detail/:${baseSymbol}`}>
-            <button type="button" onClick={clickHandler} className="arrow right"> </button>
+            <p className="arrow-container">
+              {' '}
+              <i role="button" label="but" tabIndex={0} onClick={clickHandler} className="arrow right" />
+            </p>
           </Link>
         </td>
         <td>
