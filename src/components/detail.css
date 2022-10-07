@@ -36,13 +36,13 @@ table {
   display: flex;
   justify-content: center;
   border: none;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .row td {
   padding: 5px;
-  font-size: 30px;
-  font-family: serif;
+  font-size: 25px;
+  font-family: monospace, sans-serif;
 }
 
 .row td:nth-child(odd) {
