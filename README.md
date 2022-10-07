@@ -43,7 +43,7 @@ In terminal run: npm test
 ### Deployment
 
 [Live demo](https://hilarious-creponne-14fd5c.netlify.app)
-[Live presentation](https://www.loom.com/share/2866b9736d354153b0de70fc7875fb9e)
+[Live presentation](https://www.loom.com/share/4a8d557598a147e69a96a0702584fe80)
 
 ## Authors
 
