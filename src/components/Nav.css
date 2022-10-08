@@ -1,0 +1,43 @@
+body {
+  padding: 2%;
+}
+
+.navig-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.title {
+  padding-left: 5%;
+}
+
+.navBar {
+  display: flex;
+  grid-gap: 25%;
+  list-style: none;
+  padding-right: 10%;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.home-link {
+  padding: 0;
+}
+
+.speaker {
+  width: 30px;
+  height: 30px;
+}

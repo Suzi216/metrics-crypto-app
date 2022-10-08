@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Covid Metrics
+# Crypto Market Metrics
 
 
 
@@ -10,11 +10,7 @@
 - React
 - Redux
 - WebPack
-
-## Live Demo
-
-![Coming Soon]()
-
+- Jest
 
 ## Getting Started
 
@@ -28,10 +24,10 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Clone the repository by running the following command in your terminal:
-    git clone
+    git clone https://github.com/Suzi216/metrics-covid-app.git
 
 - Change your directory by by running the following command in your terminal:
-    cd space-hub
+    cd metrics-crypto-app
 
 ### Install
 - Install the dependencies by running `npm i` in your terminal
@@ -40,10 +36,14 @@ To get a local copy up and running follow these simple example steps.
 
 - After all the dependencies are installed open the app by running npm start in your terminal
 
+### Run test
+
+In terminal run: npm test
 
 ### Deployment
 
-
+[Live demo](https://hilarious-creponne-14fd5c.netlify.app)
+[Live presentation](https://www.loom.com/share/930419566b434fd79fe1be415705d0c2)
 
 ## Authors
 
@@ -58,6 +58,10 @@ To get a local copy up and running follow these simple example steps.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgements
+
+The styling is based on the author Nelson Sakwa: https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
 
 ## Show your support
 
