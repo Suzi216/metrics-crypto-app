@@ -43,7 +43,7 @@ In terminal run: npm test
 ### Deployment
 
 [Live demo](https://hilarious-creponne-14fd5c.netlify.app)
-[Live presentation](https://www.loom.com/share/4a8d557598a147e69a96a0702584fe80)
+[Live presentation](https://www.loom.com/share/930419566b434fd79fe1be415705d0c2)
 
 ## Authors
 
@@ -58,6 +58,10 @@ In terminal run: npm test
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+## Acknowledgements
+
+The styling is based on the author Nelson Sakwa: https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)
 
 ## Show your support
 
